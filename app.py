@@ -7,9 +7,9 @@ if name:
  st.write("welcome to our guess game "+name )
 guess=st.number_input("ادخل تخمينك ")
 if st.button("تاكد من التخمين "):
-  if guess == number:
+  elif guess == number:
      st.success("you are winner")
-      if guess > number:
+     elif guess > number:
          st.error("you are loser the number was ",number)  
-           if guess < number:
+           elif guess < number:
              st.error("you are loser the number was ",number)       
