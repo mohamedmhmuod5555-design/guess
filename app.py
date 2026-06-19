@@ -5,7 +5,7 @@ st.title("أهلا بك في لعبتنا التابعه للبروفييسير 
 name = st.text_input("من فضلك اعطيني اسمك")
 if name:
  st.write("welcome to our guess game "+name )
-guess=st.text_input("ادخل تخمينك ")
+guess=st number_input("ادخل تخمينك ")
 if st.button("تاكد من التخمين "):
   if guess == number:
      st.success("you are winner")
