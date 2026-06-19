@@ -15,5 +15,6 @@ if st.button("تاكد من التخمين "):
     st.write("you are loser the number was ",number)       
 if st.button("اعاده اللعب "):
   del number
+  del name
  
 
