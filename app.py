@@ -11,5 +11,5 @@ if st.button("تاكد من التخمين "):
      st.success("you are winner")
   if guess > number:
          st.error("you are loser the number was ",number)  
-   if guess < number:
+  if guess < number:
              st.error("you are loser the number was ",number)       
